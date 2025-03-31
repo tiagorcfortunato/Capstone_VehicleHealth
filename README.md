@@ -119,8 +119,11 @@ Git & GitHub
 
 Tiago Fortunato
 Software Engineering Student | Mechanical Engineer
+-
 🔗 LinkedIn: www.linkedin.com/in/tiagorcfortunato
+-
 🔗 GitHub: https://github.com/tiagorcfortunato
+-
 
 
 
