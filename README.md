@@ -46,20 +46,13 @@ Capstone_VehicleHealth/
 ```
 ---
 
-## 📊 Dashboard Preview
-
-- [🔗 Streamlit App (Live Demo)](https://capstonevehiclehealth.streamlit.app)
-- [📄 Dashboard Report (PDF)](assets/dashboard_resultados.pdf)
-
----
-
 ## 📊 Results
 
-O sistema desenvolvido permite monitorar o estado de um veículo em tempo real e prever possíveis falhas com antecedência, aumentando a confiabilidade e a segurança do veículo.
+The developed system allows monitoring the condition of a vehicle in real time and predicting potential failures in advance, increasing reliability and vehicle safety.
 
-## 📈 Resultados Visuais
+## 📈 Visual Results
 
-Abaixo estão alguns exemplos de saída do dashboard desenvolvido com Streamlit:
+Below are some example outputs from the dashboard developed with Streamlit:
 
 ### 📊 General Statistics
 <p align="center">
@@ -82,6 +75,12 @@ Abaixo estão alguns exemplos de saída do dashboard desenvolvido com Streamlit:
   </a>
 </p>
 
+## 📊 Dashboard Preview
+
+- [🔗 Streamlit App (Live Demo)](https://capstonevehiclehealth.streamlit.app)
+- [📄 Dashboard Report (PDF)](assets/dashboard_resultados.pdf)
+
+---
 
 ## 📈 Key Results
 
