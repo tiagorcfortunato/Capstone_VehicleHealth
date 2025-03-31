@@ -80,7 +80,12 @@ Abaixo estão alguns exemplos de saída do dashboard desenvolvido com Streamlit:
 🗂️ Veja também: 📄 [Resultados do Dashboard (PDF)](assets/dashboard_resultados.pdf)
 
 
-🔗 [Acesse o Dashboard Interativo](https://capstonevehiclehealth.streamlit.app)
+<p align="center">
+  <a href="https://capstonevehiclehealth.streamlit.app">
+    <img src="https://img.shields.io/badge/Dashboard%20Online-Streamlit-blue?style=for-the-badge&logo=streamlit" alt="Streamlit App">
+  </a>
+</p>
+
 
 
 ## 🚀 Como Rodar o Projeto
