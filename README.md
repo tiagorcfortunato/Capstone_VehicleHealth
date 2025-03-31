@@ -1,23 +1,24 @@
 # Vehicle Health Monitor & Fault Predictor 🚗🛠️
 
-Este projeto foi desenvolvido como parte do Capstone da University of Europe, com o objetivo de simular um sistema inteligente de monitoramento de saúde veicular e predição de falhas com base em dados de sensores.
+This project was developed as part of the Capstone for the Master's in Software Engineering at the University of Europe. The goal was to simulate an intelligent vehicle health monitoring system that can predict failures using sensor data and machine learning.
 
 ---
 
-## 🧠 Objetivo
+## 🧠 Objective
 
-Criar um sistema que:
+Develop a system capable of:
 
-- Analise dados de sensores de um veículo (temperatura do motor, vibração, pressão do óleo, etc.)
-- Detecte padrões anômalos associados a falhas
-- Faça previsões antecipadas com uso de modelos de Machine Learning
-- Visualize os resultados de forma interativa via dashboard (Streamlit)
+- Analyzing sensor data from vehicles (e.g., engine temperature, vibration, oil pressure, RPM, speed)
+- Detecting abnormal patterns related to failures
+- Predicting failures in advance using Machine Learning (Random Forest)
+- Displaying the results interactively through a dashboard built with Streamlit
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🧱 Project Structure
 
-> 🔄 O projeto é composto por 4 notebooks e 1 script `.py`:
+The project is structured into 4 notebooks and 1 dashboard script:
+
 > - Os notebooks cobrem desde a geração dos dados até a modelagem e avaliação.
 > - O script Python final (`Capstone_05_Dashboard_Streamlit.py`) implementa o dashboard interativo com Streamlit.
 
@@ -45,16 +46,14 @@ Capstone_VehicleHealth/
 ```
 ---
 
-## ✅ Tecnologias Utilizadas
+## 📊 Dashboard Preview
 
-- Python 3
-- pandas, NumPy, scikit-learn
-- matplotlib, seaborn, plotly
-- Streamlit
+- [🔗 Streamlit App (Live Demo)](https://capstonevehiclehealth.streamlit.app)
+- [📄 Dashboard Report (PDF)](assets/dashboard_resultados.pdf)
 
 ---
 
-## 📊 Resultado
+## 📊 Results
 
 O sistema desenvolvido permite monitorar o estado de um veículo em tempo real e prever possíveis falhas com antecedência, aumentando a confiabilidade e a segurança do veículo.
 
@@ -62,23 +61,20 @@ O sistema desenvolvido permite monitorar o estado de um veículo em tempo real e
 
 Abaixo estão alguns exemplos de saída do dashboard desenvolvido com Streamlit:
 
-### 📊 Estatísticas Gerais
+### 📊 General Statistics
 <p align="center">
   <img src="assets/imgs/dashboard_stats.png" width="600"/>
 </p>
 
-### 📉 Distribuições
+### 📉 Distributions
 <p align="center">
   <img src="assets/imgs/dashboard_distributions.png" width="600"/>
 </p>
 
-### 🔗 Matriz de Correlação
+### 🔗 Correlation Matrix
 <p align="center">
   <img src="assets/imgs/dashboard_corr_matrix.png" width="600"/>
 </p>
-
-🗂️ Veja também: 📄 [Resultados do Dashboard (PDF)](assets/dashboard_resultados.pdf)
-
 
 <p align="center">
   <a href="https://capstonevehiclehealth.streamlit.app">
@@ -87,23 +83,46 @@ Abaixo estão alguns exemplos de saída do dashboard desenvolvido com Streamlit:
 </p>
 
 
+## 📈 Key Results
 
-## 🚀 Como Rodar o Projeto
+- Accuracy: **99.9%**
+- Precision & Recall: **1.00 for 'Normal'**, **0.86 for 'Failure'**
+- Only **1 false negative** in the test set
+- Highly imbalanced data handled using `class_weight='balanced'` in the model
 
-1. Clone este repositório  
-2. Instale as dependências com:  
+---
+
+## 🚀 How to Run the Project
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/tiagorcfortunato/Capstone_VehicleHealth.git
+   cd Capstone_VehicleHealth
+
+2. Install dependencies 
 pip install -r requirements.txt
 
-3. Execute o dashboard com:  
+3. Run the notebooks step-by-step (data, ETL, ML, reporting)
+
+4. Launch the dashboard:
 streamlit run dashboard/Capstone_05_Dashboard_Streamlit.py
 
----
+🛠️ Technologies Used
 
-## 📌 Observação
+Python
+Pandas, NumPy, scikit-learn, seaborn, matplotlib
+Streamlit (dashboard)
+Git & GitHub
 
-Este projeto utiliza dados simulados com base em padrões realistas para fins acadêmicos e demonstrativos.
 
----
+👨‍💻 Author
+
+Tiago Fortunato
+Software Engineering Student | Mechanical Engineer
+🔗 LinkedIn: www.linkedin.com/in/tiagorcfortunato
+🔗 GitHub: https://github.com/tiagorcfortunato
+
+
 
 
 
