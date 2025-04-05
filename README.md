@@ -92,7 +92,7 @@ The developed system allows monitoring a vehicle’s condition in real-time and 
 
 ## 🌐 Dashboard Preview
 
-- 🟢 [Streamlit App (Live Demo)](https://your-streamlit-url)
+- 🟢 [Streamlit App (Live Demo)]
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live--Demo-brightgreen?logo=streamlit)](https://capstonevehiclehealth.streamlit.app)
 
