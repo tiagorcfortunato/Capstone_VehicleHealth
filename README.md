@@ -45,6 +45,16 @@ Capstone_VehicleHealth/
 └── README.md                  # Este arquivo
 ```
 ---
+📊 Dataset Description
+
+The dataset `vehicle_sensor_data.csv` contains the following simulated features:
+
+- `engine_temp`: Engine temperature (°C)
+- `vibration`: Vibration intensity (g)
+- `oil_pressure`: Oil pressure (bar)
+- `rpm`: Revolutions per minute
+- `speed`: Vehicle speed (km/h)
+- `failure`: Binary target (1 = failure, 0 = normal)
 
 ## 📊 Results
 
@@ -90,6 +100,13 @@ Below are some example outputs from the dashboard developed with Streamlit:
 - Highly imbalanced data handled using `class_weight='balanced'` in the model
 
 ---
+🛠️ Future Improvements
+
+- Experiment with additional ML models (e.g., XGBoost, SVM)
+- Include real-world sensor datasets (e.g., from UCI or Kaggle)
+- Add time-series analysis for failure prediction
+- Improve dashboard interactivity with Streamlit widgets
+- Deploy dashboard using Streamlit Cloud (already done ✅)
 
 ## 🚀 How to Run the Project
 
