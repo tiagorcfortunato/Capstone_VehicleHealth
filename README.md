@@ -86,7 +86,7 @@ The developed system allows monitoring a vehicle’s condition in real-time and 
 
 ### 📊 Correlation Matrix
 
-![correlation matrix](assets/imgs/correlation_matrix.png)
+![correlation matrix](assets/imgs/dashboard_corr_matrix.png)
 
 ---
 
